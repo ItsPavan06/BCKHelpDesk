@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f7f2">
+  <title>Results | Bhandarkars' Arts & Science College</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Bhandarkars' Arts & Science College home">
+        <img class="college-logo" src="logo.webp" alt="Bhandarkars' Arts & Science College emblem">
+        <span class="brand-name">Bhandarkars' Arts &amp; Science College<span>Kundapura</span></span>
+      </a>
+      <div class="topbar-status">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>Campus guide</span>
+        <span class="topbar-divider" aria-hidden="true"></span>
+        <span id="clock">09:41 AM</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="results-panel" aria-labelledby="results-title">
+        <div class="results-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> Here’s what I found</p>
+            <h1 id="results-title">You’re looking for<br><em>the student centre.</em></h1>
+          </div>
+          <div class="heard-query"><span class="heard-mark">“</span><span id="query-text">Where can I print something?</span><span class="heard-mark">”</span></div>
+        </div>
+        <div class="results-grid">
+          <article class="result-card result-primary">
+            <div class="card-topline"><span class="result-number">01</span><span class="match-tag">BEST MATCH</span></div>
+            <div class="result-icon building-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V6l8-3 8 3v15M2 21h20M8 9h2M14 9h2M8 13h2M14 13h2M8 17h2M14 17h2"/></svg></div>
+            <h2>Student Centre</h2>
+            <p>Printing, ID cards, lockers & general support</p>
+            <div class="result-meta"><span class="meta-icon">⌖</span><strong>2 min</strong> walk <span class="meta-divider"></span><span class="open-dot"></span> Open until 6:00 PM</div>
+            <button class="result-action" type="button">Show me the way <span>↗</span></button>
+          </article>
+          <article class="result-card result-secondary">
+            <div class="card-topline"><span class="result-number">02</span><span class="match-tag">ALSO NEARBY</span></div>
+            <div class="result-icon print-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v7H6z"/><path d="M18 12h.01"/></svg></div>
+            <h2>Library · Ground Floor</h2>
+            <p>Self-service printers & study spaces</p>
+            <div class="result-meta"><span class="meta-icon">⌖</span><strong>4 min</strong> walk <span class="meta-divider"></span><span class="open-dot"></span> Open until 10:00 PM</div>
+            <button class="text-action" type="button">View details <span>↗</span></button>
+          </article>
+        </div>
+        <div class="results-footer"><button class="secondary-button ask-again" type="button">Ask something else <span>↻</span></button><span>Results powered by campus services</span></div>
+      </section>
+    </main>
+
+    <footer class="footer-bar"><span>BASC / KUNDAPURA</span><span class="footer-middle">Your smarter way around campus</span><span>HELP · ACCESSIBILITY</span></footer>
+  </div>
+</body>
+</html>
